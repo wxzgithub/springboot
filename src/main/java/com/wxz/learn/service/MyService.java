@@ -10,6 +10,7 @@ public class MyService {
     public static final Logger LOG = LoggerFactory.getLogger(MyService.class);
     public String test(){
         LOG.info("my service.");
+        LOG.info("my service1");
         return "hello,spring boot demo.";
     }
 }
