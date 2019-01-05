@@ -11,6 +11,7 @@ public class MyService {
     public String test(){
         LOG.info("my service.");
         LOG.info("my service1");
+        LOG.info("my service2");
         return "hello,spring boot demo.";
     }
 }
