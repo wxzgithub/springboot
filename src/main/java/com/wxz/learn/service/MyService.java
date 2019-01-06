@@ -12,6 +12,7 @@ public class MyService {
         LOG.info("my service.");
         LOG.info("my service1");
         LOG.info("my service2");
+        LOG.info("my service3");
         return "hello,spring boot demo.";
     }
 }
